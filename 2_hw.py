@@ -15,6 +15,8 @@ def task_1() -> Tuple[int, float, str, list, bool]:
     print(f"Тип string_var: {type(string_var)}")
     print(f"Тип list_var: {type(list_var)}")
     print(f"Тип bool_var: {type(bool_var)}")
+    print(integer_var, float_var, string_var, list_var, bool_var)
+
 
     # Возвращаем значения переменных (по аннотации возвращаемых данных)
     return integer_var, float_var, string_var, list_var, bool_var
@@ -48,4 +50,3 @@ except ValueError:
 # Вызов функции
 task_1()
 task_2()
-task_3()
