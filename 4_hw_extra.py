@@ -17,7 +17,7 @@ class Car:
         self.year = year
         print(year)
 
-car = Car("red", "fuck", "hz")
+car = Car("red", "corvet", "2025")
 car.establish_colour(input())
 car.establish_type(input())
 car.establish_year(input())
